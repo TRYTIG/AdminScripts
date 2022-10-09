@@ -5,8 +5,11 @@ This script **must** be ran as an Administrator or it will fail to execute.
 
 ### Script usage
 Usage: `.\CreateUsers.ps1 <UPN> <CSV FILE>`
+
 Example Usage:  `.\CreateUsers.ps1 trytheitguy.com NewUsers.csv`
+
 CSV Format: `FirstName,LastName,TempPassword,OU`
+
 Example CSV file:
 ```
 FirstName,LastName,TempPassword,OU
